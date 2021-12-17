@@ -264,6 +264,7 @@ header .toggle {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 300px);
   gap: 20px;
+  height: fit-content;
 }
 .work .container .content .card {
   min-height: 300px;
