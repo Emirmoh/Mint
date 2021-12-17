@@ -241,8 +241,9 @@ header .toggle {
 }
 .work .container .content .filter {
   display: flex;
-  column-gap: 10px;
-  height: fit-content;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .work .container .content .filter li {
   padding: 10px 20px;
