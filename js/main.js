@@ -36,3 +36,15 @@ function filterCards() {
     else card.classList.add("hide");
   });
 }
+
+// ==== SCROLL REVEAL ANIMATION  =====
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2000,
+  delay: 300,
+});
+sr.reveal(".home .image, .work .card, .blog .card");
+sr.reveal(".home  .text", { delay: 400 });
+sr.reveal(".about .content, .skills .text, .contact form", { origin: "left" });
+sr.reveal(" .contact img", { origin: "right" });
